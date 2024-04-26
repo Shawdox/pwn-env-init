@@ -29,7 +29,7 @@ sudo apt-get -y install libc6-i386
 sudo apt-get -y install git gdb
 # install pwndbg
 git clone https://github.com/pwndbg/pwndbg
-cd pwndbg
+cd pwndbg && git checkout 71c4e1d6f382f997d7526fa15bb77191577ca367
 ./setup.sh
 # install peda
 git clone https://github.com/longld/peda.git ~/peda
